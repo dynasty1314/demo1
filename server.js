@@ -23,4 +23,4 @@ app.get('/good/:id',function (req,res) {
     let id=req.params.id;
     res.send(dataArr[parseInt(id)-1]);
 });
-app.listen(8080);
+app.listen(80);
